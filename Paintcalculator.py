@@ -1,4 +1,5 @@
 # Paint Calculator
+# 12/01/25
 # I need to paint multipe walls, i need a tool to easily calculate how much paint to buy
 # Each can of paint covers 5^2 metres
 
@@ -9,4 +10,4 @@ def paint_calculator(wallsize):
     cansneeded = int(wallsize) / 5
     return cansneeded
 
-print(f"Your will need to buy {print_calculator(wallsize)} cans of paint")
+print(f"Your will need to buy {paint_calculator(wallsize)} cans of paint")
